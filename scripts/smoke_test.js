@@ -40,7 +40,9 @@ const { JSDOM } = require('jsdom');
   }
 
   const tests = [
-    { code: 'en', rtl: false }
+    { code: 'ar-SA', rtl: true },
+    { code: 'en-IN', rtl: false },
+    { code: 'es-AR', rtl: false }
   ];
 
   let allPass = true;
